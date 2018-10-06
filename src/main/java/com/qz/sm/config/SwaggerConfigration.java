@@ -21,8 +21,8 @@ public class SwaggerConfigration {
 	public Docket controllerApi() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.apiInfo(new ApiInfoBuilder()
-				.title("AllPacs Management System of Drcsy")
-				.description("用于一些运营管理工作")
+				.title("QuanZu project for Spring Boot of Drcsy")
+				.description("用于全组事务")
                 .contact(new Contact("Drcsy", "https://www.baidu.com", null )) //"398241665@qq.com"
 				.version("版本号:1.0").build())
 				.select()
